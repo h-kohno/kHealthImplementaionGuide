@@ -1,3 +1,5 @@
 # kHealthImplementationGuide
 
-Feel free to modify this index page with your own awesome content!
+河野秀樹のヘルスケア実装ガイド  
+- FSHの検証
+- CQLの検証

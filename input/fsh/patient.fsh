@@ -5,10 +5,15 @@ Profile: MyPatient
 Parent: Patient
 Description: "An example profile of the Patient resource."
 * name 1..* MS
+* gender 1..1
+* birthDate 1..1
 
 Instance: PatientExample
 InstanceOf: MyPatient
 Description: "An example of a patient with a license to krill."
 * name
-  * given[0] = "James"
-  * family = "Pond"
+  * given[0] = "Hideki"
+  * family = "Kono"
+* gender = #male
+* birthDate = "1962-10-12"
+  
