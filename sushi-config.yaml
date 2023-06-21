@@ -5,6 +5,7 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: fhir.example
 canonical: http://example.org
+title: "KOHNO Healthcare System ImplementationGuide"
 name: kHealthImplementationGuide
 # title: Example Title
 # description: Example Implementation Guide for getting started with SUSHI

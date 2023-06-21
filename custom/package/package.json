@@ -1,0 +1,12 @@
+{ 
+  "name": "com.kohno.ig-template",
+  "type": "fhir.template",
+  "license": "CC0-1.0",
+  "description": "FHIR Kohno IG Template",
+  "author": "https://kohno.com",
+  "canonical": "https://fhir.kohno.com/core/templates/com.kohno.ig-template",
+  "base": "fhir.base.template",
+  "dependencies": {
+    "fhir.base.template": "current"
+  }
+}
