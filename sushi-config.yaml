@@ -51,7 +51,15 @@ publisher:
 #     title: Examples Overview
 #     simpleExamples.xml:
 #     complexExamples.xml:
-#
+pages:
+  index.md:
+    title: 河野秀樹のテスト用実装ガイド
+  information.md:
+    title: この実装ガイドの情報提供
+    guide1.md:
+      title: ガイダンス１
+    guide2.md:
+      title: ガイダンス２
 #
 # The parameters property represents IG.definition.parameter. Rather
 # than a list of code/value pairs (as in the ImplementationGuide
@@ -76,6 +84,10 @@ publisher:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
+  インフォメーション: information.html
+  ガイダンス:
+    ガイド１: guide1.html
+    ガイド２: guide2.html 
   Artifacts: artifacts.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
