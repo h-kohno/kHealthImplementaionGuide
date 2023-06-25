@@ -20,6 +20,8 @@ publisher:
   name: Example Publisher
   url: http://example.org/example-publisher
   # email: test@example.org
+dependencies:
+  hl7.fhir.us.core: 6.0.0
 
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced
@@ -76,7 +78,7 @@ pages:
 #   validation: [allow-any-extensions, no-broken-links]
 parameters:
   excludexml: "false"
-  excludejsn: "false"
+  #  excludejsn: "false"
   excludettl: "true"
   excludemap: "true"
   generate:
