@@ -1,6 +1,9 @@
 CodeSystem: RaceAndEthnicityCDC
 Id: example-cdcrec
 Title: "Race & Ethnicity - CDC"
+Description:  "Race & Ethnicity CodeSystem - CDC add by H.Kono."
+* ^experimental = true
+* ^caseSensitive = true
 * ^hierarchyMeaning = #is-a
 * ^property[0].code = #abstract
 * ^property[=].type = #boolean

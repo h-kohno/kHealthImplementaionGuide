@@ -29,6 +29,8 @@ Description: "Concepts classifying the person into a named category of humans...
 ValueSet: OmbEthnicityCategories
 Id: example-omb-ethnicity-categories
 Title: "OMB Ethnicity Categories"
+Description: "Values for OMB Ethnicity Categories"
+* ^experimental = true
 * $CDC_RACE_ETHN#2135-2 "Hispanic or Latino"
 * $CDC_RACE_ETHN#2186-5 "Non Hispanic or Latino"
 
@@ -37,6 +39,8 @@ Title: "OMB Ethnicity Categories"
 ValueSet: DetailedEthnicity
 Id: example-detailed-ethnicity
 Title: "Detailed Ethnicity"
+Description: "Values for Detailed Ethnicity"
+* ^experimental = true
 * include codes from system $CDC_RACE_ETHN where concept is-a #2133-7
 * exclude $CDC_RACE_ETHN#2135-2
 * exclude $CDC_RACE_ETHN#2186-5

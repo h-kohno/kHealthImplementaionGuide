@@ -1,4 +1,4 @@
-Alias: $sct = http://snomde.info/sct
+Alias: $sct = http://snomed.info/sct
 Alias: $icd = http://hl7.org/fhir/sid/icd-10-cm
 
 Profile: CovidDiagnosis
@@ -10,7 +10,10 @@ Description: "How to report COVID"
 * subject 1..1
 
 ValueSet: CovidSeverityVS
+Title: "Birth SexCovidSeverity Value Set"
 Description: "Values for COVID severity"
+* ^experimental = true
+* ^status = #draft
 * include codes from valueset http://hl7.org/fhir/ValueSet/condition-severity
 * include $sct#442452003 "Life threatening severity (qualifier)"
 
@@ -18,7 +21,7 @@ Instance: DiagnosisExample
 InstanceOf: CovidDiagnosis
 * subject = Reference(JaneDoe)
 * code = $icd#U07.1
-* severity = $sct#224484000 "Severe"
+// * severity = $sct#224484000 "Severe"
 
 Instance: JaneDoe
 InstanceOf: Patient

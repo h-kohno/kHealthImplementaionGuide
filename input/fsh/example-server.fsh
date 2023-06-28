@@ -32,6 +32,20 @@ Usage: #definition
 * insert SupportSearchParam(patient, http://example.org/SearchParameter/example-careplan-patient, #reference, #MAY)
 * rest.resource[=].referencePolicy = #resolves
 
+// Observation
+* insert SupportResource(Observation, #SHALL)
+* insert SupportProfile(http://example.org/StructureDefinition/BloodPressureProfile, #SHALL)
+* insert SupportInteraction(#read, #SHALL)
+* insert SupportInteraction(#search-type, #SHALL)
+* rest.resource[=].referencePolicy = #resolves
+
+// Condition
+* insert SupportResource(Condition, #SHALL)
+* insert SupportProfile(http://example.org/StructureDefinition/example-condition-w-binding, #SHALL)
+* insert SupportInteraction(#read, #SHALL)
+* insert SupportInteraction(#search-type, #SHALL)
+* rest.resource[=].referencePolicy = #resolves
+
 RuleSet: SupportResource (resource, expectation)
 * rest.resource[+].type = #{resource}
 * rest.resource[=].extension[0].url = $exp

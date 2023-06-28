@@ -2,6 +2,8 @@ CodeSystem:  YogaCS
 Id: example-yoga-code-system
 Title: "Yoga Code System"
 Description:  "A brief vocabulary of yoga-related terms."
+* ^experimental = true
+* ^caseSensitive = true
 * #sirsasana "Headstand"
     "A pose that involves standing on one's head."
 * #halasana "Plough Pose"

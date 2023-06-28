@@ -4,7 +4,9 @@ Alias: $SCT = http://snomed.info/sct
 
 ValueSet: RidiculousExampleValueSet
 Id: example-ridiculous-vs
+Title: "RidiculousE ValueSet"
 Description: "This is a ridiculous value set just to demonstrate the rule types"
+* ^experimental = true
 * ^status = #draft
 * $SCT#961000205106 "Wearing street clothes, no shoes"
 //* include $SCT#961000205106 "Wearing street clothes, no shoes"

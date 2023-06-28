@@ -16,6 +16,8 @@ Description: "An example profile for collecting weight"
 ValueSet: BodyWeightUnits
 Id: example-weight-units
 Title: "Body Weight Units"
+Description: "Values forBody Weight Units"
+* ^experimental = true
 * $UCUM#kg "kg"
 * $UCUM#[lb_av] "lb_av"
 * $UCUM#g "g"

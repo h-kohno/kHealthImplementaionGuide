@@ -18,6 +18,8 @@ Description: "A code classifying the person's sex assigned at birth."
 ValueSet: BirthSexValueSet
 Id: example-birthsex-vs
 Title: "Birth Sex Value Set"
+Description:  "Birth Sex Value Set added by H.Kono."
+* ^experimental = true
 * $GENDER#F "Female"
 * $GENDER#M "Male"
 * $NULL#UNK "Unknown"
